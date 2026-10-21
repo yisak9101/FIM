@@ -1,0 +1,19 @@
+env: push_box
+
+env_args:
+  map_name: "push_box"
+  episode_limit: 35
+  n_boxes: 2
+  grid_size: 80
+  spawn_range: 10
+  write_wide_trace: False
+
+test_greedy: True
+test_nepisode: 16
+test_interval: 10000
+log_interval: 10000
+runner_log_interval: 10000
+learner_log_interval: 10000
+GRF: False
+agent: "n_rnn"
+decimal_to_round: 2
